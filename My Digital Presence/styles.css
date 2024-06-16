@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: aliceblue;
+    text-align: center;
+    justify-content: center;
+}
+#top-fixed{
+    position: fixed;
+    background-color:rgb(27, 24, 24);
+    width: 100%;
+    text-align: center;
+    z-index: 1000;
+}
+body{
+    background-image: url(g5.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% ;
+}
+.navhead{
+    padding: 20px;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.topic{
+    margin-top: 10px;
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+#sum{
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 300px;
+}
+.navbar a:hover{
+    display: inline;
+    color: black;
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50px;
+    transition-duration: 0.2s;
+}
+a{
+    margin: 10px;
+    font-style: oblique;
+}
+li{
+    display: inline;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+}
+#aboutme{
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 40px;
+}
+#domain {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 40px;
+    width: 21ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3s steps(21, end) infinite alternate;
+}
+
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+}
+#dame{
+    padding: 180px 0 0 0;
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+    
+}
+.saboutme {
+    width: 50%;
+    height: 300px;
+    float: left;
+    box-sizing: border-box;
+}
+#sum{
+    display: flex;
+    justify-content:space-between ;
+    font-size: 25px;
+}
+#img{
+    border-radius: 80%;
+    bottom: 30px;
+    border-color: brown;
+    border-style: solid;
+}
+h2{
+    display: inline-block;
+    font-size: 50px;
+    padding: 10px;
+    filter:drop-shadow(5px 3px 5px brown)
+}
+h3{
+    font-size: 27px;
+    padding: 15px;
+    margin: 5px;
+}
+#skills{
+    padding: 30px 0 0 0;
+    text-align: center;
+}
+.html-one {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    justify-content: center;
+    background-color:black;
+    height: 300px;
+    width: 40%;
+    padding: 50px;
+    margin-left: 300px;
+    border-radius: 20px;
+    object-fit:cover;
+}
+.html-one:hover{
+    box-shadow: 5px 3px 6px brown;
+}
+#html, #css, #js, #git, #gh, #vs,#php {
+    border-style: solid;
+    border-color: brown;
+    padding: 10px;
+    margin: 10px;
+    width: 110px;
+    height: 50px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+#spro{
+    text-align: center;
+    padding: 50px;
+    #phtagichi,#ptagni{
+        padding: 40px;
+        font-size: 30px;
+    }
+    .pulone,li{
+        display: block;
+        padding: 10px;
+        font-size: 20px ;
+    }
+}
+.sp{
+    font-size: 27px;
+    padding: 10px;
+}
+#sedu{
+    #education{
+        padding: 20px;
+    }
+    .eduag{
+        background-color: black;
+        padding:10px 70px 30px 70px;
+        margin: 20px 0px 0 260px ;
+        width: 50%;
+        border-radius: 50px;
+        box-shadow: 7px 5px 10px brown;
+    }
+    .e-h-one{
+        padding: 20px;
+        font-style:oblique;
+        font-size: 35px;
+    }
+    .e-p-1{
+        padding: 30px;
+        font-size: 25px;
+    }
+    .e-g-h-4{
+        padding: 20px;
+        font-size: 23px;
+    }
+    .e-p-2{
+        padding: 20px 20px 20px 0;
+        font-size: 25px;
+    }
+}
+#sc{
+    margin-left: 110px;
+    .h-2-e{
+        display: block;
+        font-size: 30px;
+        padding: 20px 30px 30px 30px;
+    }
+    #inputs{
+        background-color: black;
+        padding:10px 70px 30px 70px;
+        margin: 20px 0px 0 260px ;
+        width: 30%;
+        border-radius: 50px;
+            .large-input {
+                color: black;
+                width: 300px;
+                height: 20px;
+                font-size: 16px;
+                padding: 10px;
+                border-radius: 50px;
+            }
+            .button{
+                padding: 10px;
+                margin: 10px;
+                color: black;
+                font-size: 20px;
+                border-radius: 50%;
+            }
+            .button:hover{
+                border: none;
+                color: white;
+                background-color: black;
+                box-shadow: 7px 5px 10px brown;
+            }
+    }
+}
+.fnav{
+    .last-nav{
+        padding: 25px;
+    }
+    .last-nav:hover{
+        color: white;
+        filter:drop-shadow(10px 6px 10px brown)
+    }
+}
+#call{
+    padding: 15px;
+}
+.last-p{
+    padding:5px 0 50px 0;
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        background-image: none;
+        background-color: black;
+        justify-content: center;
+        padding: 0 20px 0 20px
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    sc{
+       
+        padding: 0 20px 0 20px
+    }
+     #inputs{
+        margin : 0 20px 0 20px;
+        margin-left: 30px;
+    }
+}
